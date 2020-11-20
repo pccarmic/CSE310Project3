@@ -10,4 +10,10 @@
 
 using namespace std;
 
+struct vertex{
+    int v;
+    int w;
+    vertex* next;
+};
+
 #endif //PROJECT3_UTIL_H
