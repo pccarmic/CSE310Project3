@@ -1,4 +1,5 @@
-//
-// Created by The Great PC on 11/17/2020.
-//
+#include "heap.h"
 
+void insertHeap(minHeap* minPrio, vertex* inputVert){
+
+}

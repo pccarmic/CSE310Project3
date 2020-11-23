@@ -5,6 +5,4 @@
 #ifndef PROJECT3_MAIN_H
 #define PROJECT3_MAIN_H
 
-#include "util.h"
-
 #endif //PROJECT3_MAIN_H

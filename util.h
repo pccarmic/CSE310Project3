@@ -13,7 +13,21 @@ using namespace std;
 struct vertex{
     int v;
     int w;
-    vertex* next;
 };
+
+struct table{
+    vertex* vert;
+    table* next;
+};
+
+struct minHeap{
+    vertex* vert;
+    minHeap* left;
+    minHeap* right;
+};
+
+
+
+void INSERT(table* adjTable, minHeap* minPrio, int tableIndex, vertex* inputVert);
 
 #endif //PROJECT3_UTIL_H

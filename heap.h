@@ -7,4 +7,6 @@
 
 #include "util.h"
 
+void insertHeap(minHeap* minPrio,  vertex* inputVert);
+
 #endif //PROJECT3_HEAP_H

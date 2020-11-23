@@ -7,4 +7,7 @@
 
 #include "util.h"
 
+void insertTable(table* adjTable, int tableIndex, vertex* inputVert);
+/*void printTable(table* adjTable, int numVert);*/
+
 #endif //PROJECT3_GRAPH_H
